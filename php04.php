@@ -34,6 +34,39 @@
                             $jaga = $arv1 / $arv2;
                             printf('<div class="mt-4 alert alert-success" role="alert">%d / %d = %0.2f</div>', $arv1, $arv2, $jaga);
                         }
+                        if($arv1>$arv2){
+                            echo '<div class="mt-4 alert alert-primary" role="alert">
+                            Arv1 on suurem!
+                            Võimalik joonistada RISTKÜLIK
+                            <img width="50" src="https://i.etsystatic.com/34041246/r/il/d40a60/5805041959/il_794xN.5805041959_k3qf.jpg" alt="">
+
+                            </div>';
+                        }else if($arv1<$arv2){
+                            echo '<div class="mt-4 alert alert-primary" role="alert">
+                            Arv2 on suurem!
+                            Võimalik joonistada RISTKÜLIK
+                            <img width="50" src="https://i.etsystatic.com/34041246/r/il/d40a60/5805041959/il_794xN.5805041959_k3qf.jpg" alt="">
+
+                            </div>';
+                        }else{
+                            echo '<div class="mt-4 alert alert-primary" role="alert">
+                            Arvud on võrdsed!
+                            Võimalik joonistada RUUT
+                            <img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/2048px-Square_-_black_simple.svg.png" alt="">
+
+                            </div>';
+                        }
+
+                        if($arv1%5==0){
+                            echo '<div class="mt-4 alert alert-warning" role="alert">
+                            JUUBEL
+                             </div>';
+                        }else{
+                            echo '<div class="mt-4 alert alert-warning" role="alert">
+                            EI OLE JUUBEL
+                             </div>';
+                        }
+
                         }
                     ?>
                 </div>
