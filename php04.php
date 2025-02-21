@@ -165,12 +165,13 @@ $vins = array("1GKS1GKC8FR966658", "1FTEW1C87AK375821", "1G4GF5E30DF760067", "1F
                         <form action=""><input type="text" name="eemaldafirma"></form>
                         <?php
                             $firmad = array("Kimia","Mynte","Voomm","Twiyo","Layo","Talane","Gigashots","Tagchat","Quaxo","Voonyx","Kwilith","Edgepulse","Eidel","Eadel","Jaloo","Oyope","Jamia");
-                            print_r($firmad);
+                            // print_r($firmad);
 
                             if(isset($_GET["eemaldafirma"])){
                                 $firma = $_GET["eemaldafirma"];
-                                echo "Kustutan $firma";
-                                unset($firmad["Layo"]);
+                                echo "<br>Kustutan $firma<br>";
+
+                                unset($firmad[array_search($firma, $firmad)]);
                                
 
                             }
@@ -178,11 +179,44 @@ $vins = array("1GKS1GKC8FR966658", "1FTEW1C87AK375821", "1G4GF5E30DF760067", "1F
                             print_r($firmad);
                             ?>
 
+                            <h2>Pikima nimega riik</h2>
 
+                            <?php
+                                $riigid = array("Indonesia","Canada","Kyrgyzstan","Germany","Philippines",
+                                    "Philippines","Canada","Philippines","South Sudan","Brazil",
+                                    "Democratic Republic of the Congo","Indonesia","Syria","Sweden",
+                                    "Philippines","Russia","China","Japan","Brazil","Sweden","Mexico","France",
+                                    "Kazakhstan","Cuba","Portugal","Czech Republic");
 
+                                $pikimRiik = "";
+                                foreach($riigid as $riik){
+                                    if(strlen($riik) > strlen($pikimRiik)){
+                                        $pikimRiik=$riik;
+                                    }
+                                }
+                                echo "Pikim riik on $pikimRiik<br>";
+                                printf("%d + %d = %d",$a, $b, $a+$b);
+                            ?>
+
+                            <h2>Pildid</h2>
+                            <h3>Kolmas pilt</h3>
+                            <?php
+                                $pildid = array("prentice.jpg","freeland.jpg","peterus.jpg","devlin.jpg","gabriel.jpg","pete.jpg");  
+                                echo "<img width='100' src='img/$pildid[2]' alt='img/$pildid[2]'><br>";
+                                ?>
+                                <h3>Kõik pildid</h3>
+                                <div class="row">
+                            <?php
+                                foreach($pildid as $pilt){
+                                    echo "<div class='col-sm-4'>
+                                        <img class='img-fluid' src='img/$pilt' alt='$pilt'>
+                                    </div>"; 
+                                }
+                            ?>
+                            </div>
                 </div>
             </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
-</html>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+    </html>
