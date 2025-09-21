@@ -1,8 +1,8 @@
-PHP ülesanded ilma andmebaasita
+PHP projektid ilma andmebaasita
 PHP projektid
 
 1. Autopesula
-   Fail: 'services.csv' (teenuse nimi; hind; kirjeldus). Kalkulaator arvestab auto suurust (sedaan, universaal, maastur lisab % juurde).
+   * Fail: 'services.csv' (teenuse nimi; hind; kirjeldus). Kalkulaator arvestab auto suurust (sedaan, universaal, maastur lisab % juurde).
 
 	* Failid tuleb genereerida saidil https://mockaroo.com
 	* Leht peab olema kujundatud Bootstrapiga ja kohanduv (responsive)
@@ -17,7 +17,7 @@ PHP projektid
 	* Esitada tuleb nii liivakasti link kui GitHubi link
 
 2. Spordiklubi
-   Fail: 'packages.csv' (paketi nimi; hind kuus; kirjeldus). Kalkulaator: kuude arv × inimeste arv.
+   * Fail: 'packages.csv' (paketi nimi; hind kuus; kirjeldus). Kalkulaator: kuude arv × inimeste arv.
 
 	* Failid tuleb genereerida saidil https://mockaroo.com
 	* Leht peab olema kujundatud Bootstrapiga ja kohanduv (responsive)
@@ -32,7 +32,7 @@ PHP projektid
 	* Esitada tuleb nii liivakasti link kui GitHubi link
 
 3. Kohvik
-   Fail: 'menu.csv' (nimi; hind; kategooria; kirjeldus). Kalkulaator summeerib tellitud toodete hinna.
+   * Fail: 'menu.csv' (nimi; hind; kategooria; kirjeldus). Kalkulaator summeerib tellitud toodete hinna.
 
 	* Failid tuleb genereerida saidil https://mockaroo.com
 	* Leht peab olema kujundatud Bootstrapiga ja kohanduv (responsive)
@@ -47,7 +47,7 @@ PHP projektid
 	* Esitada tuleb nii liivakasti link kui GitHubi link
 
 4. Raamatupood
-   Fail: 'books.csv' (pealkiri; autor; hind; kategooria). Kalkulaator arvutab raamatute koguhinna.
+   * Fail: 'books.csv' (pealkiri; autor; hind; kategooria). Kalkulaator arvutab raamatute koguhinna.
 
 	* Failid tuleb genereerida saidil https://mockaroo.com
 	* Leht peab olema kujundatud Bootstrapiga ja kohanduv (responsive)
@@ -62,7 +62,7 @@ PHP projektid
 	* Esitada tuleb nii liivakasti link kui GitHubi link
 
 5. Ehitusmaterjalid
-   Fail: 'materials.csv' (toote nimi; hind; ühik). Kalkulaator: pindala põhjal vajaliku koguse ja hinna arvutus.
+   * Fail: 'materials.csv' (toote nimi; hind; ühik). Kalkulaator: pindala põhjal vajaliku koguse ja hinna arvutus.
 
 	* Failid tuleb genereerida saidil https://mockaroo.com
 	* Leht peab olema kujundatud Bootstrapiga ja kohanduv (responsive)
@@ -77,7 +77,7 @@ PHP projektid
 	* Esitada tuleb nii liivakasti link kui GitHubi link
 
 6. Kinkepood
-   Fail: 'gifts.csv' (nimi; hind; kirjeldus). Kalkulaator: kogus + pakendamise tasu + transport.
+   * Fail: 'gifts.csv' (nimi; hind; kirjeldus). Kalkulaator: kogus + pakendamise tasu + transport.
 
 	* Failid tuleb genereerida saidil https://mockaroo.com
 	* Leht peab olema kujundatud Bootstrapiga ja kohanduv (responsive)
@@ -92,7 +92,7 @@ PHP projektid
 	* Esitada tuleb nii liivakasti link kui GitHubi link
 
 7. Turismibüroo
-   Fail: 'trips.csv' (sihtkoht; hind; kestus; kirjeldus). Kalkulaator: hind inimeste arvu järgi.
+   * Fail: 'trips.csv' (sihtkoht; hind; kestus; kirjeldus). Kalkulaator: hind inimeste arvu järgi.
 
 	* Failid tuleb genereerida saidil https://mockaroo.com
 	* Leht peab olema kujundatud Bootstrapiga ja kohanduv (responsive)
@@ -107,7 +107,7 @@ PHP projektid
 	* Esitada tuleb nii liivakasti link kui GitHubi link
 
 8. Koolituskeskus
-   Fail: 'courses.csv' (kursuse nimi; hind; kestus; kirjeldus). Kalkulaator: hind osalejate arvuga.
+   * Fail: 'courses.csv' (kursuse nimi; hind; kestus; kirjeldus). Kalkulaator: hind osalejate arvuga.
 
 	* Failid tuleb genereerida saidil https://mockaroo.com
 	* Leht peab olema kujundatud Bootstrapiga ja kohanduv (responsive)
@@ -122,7 +122,7 @@ PHP projektid
 	* Esitada tuleb nii liivakasti link kui GitHubi link
 
 9. Autolaenutus
-   Fail: 'cars.csv' (mark; hind päev; kirjeldus). Kalkulaator: päevade arv × päevahind.
+   * Fail: 'cars.csv' (mark; hind päev; kirjeldus). Kalkulaator: päevade arv × päevahind.
 
 	* Failid tuleb genereerida saidil https://mockaroo.com
 	* Leht peab olema kujundatud Bootstrapiga ja kohanduv (responsive)
@@ -137,7 +137,7 @@ PHP projektid
 	* Esitada tuleb nii liivakasti link kui GitHubi link
 
 10. Tervisekeskus / spa
-    Fail: 'spa.csv' (paketi nimi; hind; kirjeldus). Kalkulaator: hind × osalejate arv.
+    * Fail: 'spa.csv' (paketi nimi; hind; kirjeldus). Kalkulaator: hind × osalejate arv.
 
 	* Failid tuleb genereerida saidil https://mockaroo.com
 	* Leht peab olema kujundatud Bootstrapiga ja kohanduv (responsive)
@@ -152,7 +152,7 @@ PHP projektid
 	* Esitada tuleb nii liivakasti link kui GitHubi link
 
 11. Fotostuudio
-    Fail: 'packages.csv' (pakett; hind; kirjeldus). Kalkulaator: hind tundide arvu järgi.
+    * Fail: 'packages.csv' (pakett; hind; kirjeldus). Kalkulaator: hind tundide arvu järgi.
 
 	* Failid tuleb genereerida saidil https://mockaroo.com
 	* Leht peab olema kujundatud Bootstrapiga ja kohanduv (responsive)
@@ -167,7 +167,7 @@ PHP projektid
 	* Esitada tuleb nii liivakasti link kui GitHubi link
 
 12. Lillepood
-    Fail: 'flowers.csv' (nimi; hind; kirjeldus). Kalkulaator: kimbu hind (kogus × hind).
+    * Fail: 'flowers.csv' (nimi; hind; kirjeldus). Kalkulaator: kimbu hind (kogus × hind).
 
 	* Failid tuleb genereerida saidil https://mockaroo.com
 	* Leht peab olema kujundatud Bootstrapiga ja kohanduv (responsive)
@@ -182,7 +182,7 @@ PHP projektid
 	* Esitada tuleb nii liivakasti link kui GitHubi link
 
 13. Pagarikoda
-    Fail: 'bakery.csv' (nimi; hind; kirjeldus). Kalkulaator: ostukogus × hind.
+    * Fail: 'bakery.csv' (nimi; hind; kirjeldus). Kalkulaator: ostukogus × hind.
 
 	* Failid tuleb genereerida saidil https://mockaroo.com
 	* Leht peab olema kujundatud Bootstrapiga ja kohanduv (responsive)
@@ -197,7 +197,7 @@ PHP projektid
 	* Esitada tuleb nii liivakasti link kui GitHubi link
 
 14. Sporditarvete pood
-    Fail: 'sports.csv' (toote nimi; hind; kategooria). Kalkulaator: ostukogus × hind.
+    * Fail: 'sports.csv' (toote nimi; hind; kategooria). Kalkulaator: ostukogus × hind.
 
 	* Failid tuleb genereerida saidil https://mockaroo.com
 	* Leht peab olema kujundatud Bootstrapiga ja kohanduv (responsive)
@@ -212,7 +212,7 @@ PHP projektid
 	* Esitada tuleb nii liivakasti link kui GitHubi link
 
 15. Tööriistade rent
-    Fail: 'tools.csv' (tööriist; hind päev; kirjeldus). Kalkulaator: päevade arv × hind × kogus.
+    * Fail: 'tools.csv' (tööriist; hind päev; kirjeldus). Kalkulaator: päevade arv × hind × kogus.
 
 	* Failid tuleb genereerida saidil https://mockaroo.com
 	* Leht peab olema kujundatud Bootstrapiga ja kohanduv (responsive)
@@ -227,7 +227,7 @@ PHP projektid
 	* Esitada tuleb nii liivakasti link kui GitHubi link
 
 16. Käsitööpood
-    Fail: 'crafts.csv' (toote nimi; hind; kirjeldus). Kalkulaator: ostukogus × hind. Lisaleht: Blogi ('blog.txt').
+    * Fail: 'crafts.csv' (toote nimi; hind; kirjeldus). Kalkulaator: ostukogus × hind. Lisaleht: Blogi ('blog.txt').
 
 	* Failid tuleb genereerida saidil https://mockaroo.com
 	* Leht peab olema kujundatud Bootstrapiga ja kohanduv (responsive)
@@ -242,7 +242,7 @@ PHP projektid
 	* Esitada tuleb nii liivakasti link kui GitHubi link
 
 17. Muusikapood
-    Fail: 'instruments.csv' (nimi; hind; kategooria). Kalkulaator: ostukogus × hind.
+    * Fail: 'instruments.csv' (nimi; hind; kategooria). Kalkulaator: ostukogus × hind.
 
 	* Failid tuleb genereerida saidil https://mockaroo.com
 	* Leht peab olema kujundatud Bootstrapiga ja kohanduv (responsive)
@@ -257,7 +257,7 @@ PHP projektid
 	* Esitada tuleb nii liivakasti link kui GitHubi link
 
 18. Kodumasinate pood
-    Fail: 'appliances.csv' (nimi; hind; energiakulu kWh). Kalkulaator: hind + elektrikulu kuus (kWh hind ja kasutustunnid).
+    * Fail: 'appliances.csv' (nimi; hind; energiakulu kWh). Kalkulaator: hind + elektrikulu kuus (kWh hind ja kasutustunnid).
 
 	* Failid tuleb genereerida saidil https://mockaroo.com
 	* Leht peab olema kujundatud Bootstrapiga ja kohanduv (responsive)
